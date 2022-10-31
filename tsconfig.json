@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+    },
+    "strict": true,
+    "strictNullChecks": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "module": "ES6",
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "composite": true,
+    "target": "ES6",
+    "esModuleInterop": true,
+    "lib": ["DOM", "ESNext"],
+    "allowJs": false,
+    "noEmit": true
+  },
+  "include": ["src", "example"]
+}
